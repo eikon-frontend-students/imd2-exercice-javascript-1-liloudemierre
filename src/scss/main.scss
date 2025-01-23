@@ -63,10 +63,18 @@ h1 {
   background: var(--red-color);
 }
 
+.box.target.is-hidden {
+  display: none;
+}
+
 .box.trigger-all {
   background: var(--green-color);
 }
 
 .box.trigger-all-self {
   background: var(--blue-color);
+}
+
+.box.trigger-all-self.is-active {
+  background: var(--green-color);
 }
